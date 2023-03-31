@@ -15,7 +15,7 @@ class DBConnectionActivity : AppCompatActivity() {
         GlobalScope.launch {
             val bookDao = AppRoomDatabase.getDatabase(applicationContext).bookDato()
             val repository = BookRepository(bookDao)
-            repository.insert(Book("Best Seller android", "This is the best seller for android"))
+            repository.insert(Book("Cien años de soledad", "Libro de Gabriel Garcia Marquez"))
             val list = repository.getListBooks()
             list.forEach{
                 Log.d("DBTEST", "Id book = ${it.id}, Title: ${it.title}, Desc: ${it.description}")
