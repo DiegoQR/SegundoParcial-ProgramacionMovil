@@ -2,4 +2,6 @@
     <string name="app_name">SegundoParcialMovil</string>
     <string name="book_title">Title</string>
     <string name="book_description">Description</string>
+    <string name="btn_save_database">Save to database</string>
+    <string name="btn_show_database">Show database in Logcat</string>
 </resources>

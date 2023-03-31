@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/pt_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
         android:layout_marginTop="168dp"
         android:ems="10"
         android:hint="@string/book_title"
@@ -21,8 +21,8 @@
 
     <EditText
         android:id="@+id/pt_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="258dp"
+        android:layout_height="216dp"
         android:ems="10"
         android:hint="@string/book_description"
         android:inputType="textPersonName"
@@ -32,4 +32,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pt_title"
         app:layout_constraintVertical_bias="0.118" />
+
+    <Button
+        android:id="@+id/btn_savedatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save_database"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pt_description"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <Button
+        android:id="@+id/btn_showdatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_show_database"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_savedatabase"
+        app:layout_constraintVertical_bias="0.101" />
 </androidx.constraintlayout.widget.ConstraintLayout>
